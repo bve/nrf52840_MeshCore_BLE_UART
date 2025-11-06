@@ -8,9 +8,13 @@
 SerialBLEInterface bleInterface;
 BLEBridge *bleBridge = nullptr;
 
+#define VSSPOW PIN_013  // Example pin for power control
+
 void setup()
 {
   ledSetup();
+  pinMode(VSSPOW, OUTPUT);
+  digitalWrite(VSSPOW, HIGH); // Power on the LORA module
   Serial1.begin(115200);
   Serial1.println("BLE Bridge Starting...");
   bleBridge = new BLEBridge(&Serial1, bleInterface);
