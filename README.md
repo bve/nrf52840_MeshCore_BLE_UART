@@ -101,7 +101,7 @@ Notes:
 
 ## Pinout Reference
 
-- `Serial1 TX` → P0.00, `Serial1 RX` → P0.01 (see [variants/nicenano/variant.h](variants/nicenano/variant.h))
+- `Serial1 TX` → P0.06, `Serial1 RX` → P0.08 (see [variants/nicenano/variant.h](variants/nicenano/variant.h))
 - `VSSPOW` → P0.13, set HIGH in setup (see [src/main.cpp](src/main.cpp))
 - `LED` → P0.15 (see [include/led.h](include/led.h))
 
