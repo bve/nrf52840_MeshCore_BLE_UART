@@ -27,8 +27,8 @@ Core entry points:
 - UART to host:
   - Port: `Serial1` at 115200 8N1 (see [src/main.cpp](src/main.cpp)).
   - Pins (from [variants/nicenano/variant.h](variants/nicenano/variant.h)):
-    - TX: `PIN_SERIAL1_TX` = 6 → P0.00
-    - RX: `PIN_SERIAL1_RX` = 8 → P0.01
+    - TX: `PIN_SERIAL1_TX` = 6 → P0.06
+    - RX: `PIN_SERIAL1_RX` = 8 → P0.08
 - Optional power control pin for your radio/module:
   - `VSSPOW` = `PIN_013` → P0.13, driven HIGH in setup (see [src/main.cpp](src/main.cpp)).
 - LED: `PIN_015` → P0.15 (see [include/led.h](include/led.h)).
