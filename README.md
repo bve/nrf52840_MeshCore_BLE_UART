@@ -9,7 +9,7 @@ https://github.com/bve/MeshCore_STM32WLE5_BLE
 
 ## Overview
 
-- Acts as a BLE peripheral using Nordic NUS (UART over BLE) via Adafruit Bluefruit stack.
+- Acts as a BLE peripheral via Adafruit Bluefruit stack.
 - Controlled over UART by a host MCU (e.g., STM32WLE5 running MeshCore).
 - Provides commands to set device name/PIN, advertise, connect/disconnect, and send/receive frames.
 
