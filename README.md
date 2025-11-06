@@ -5,7 +5,7 @@ Firmware for an nRF52840 ProMicro-form-factor board (Nice!Nano-compatible) that 
 Related project (modified MeshCore with BLE support):  
 https://github.com/bve/MeshCore_STM32WLE5_BLE
 
-![nRF52840 ProMicro](meshcore_tiny_relay_ble.jpg.jpg)
+![nRF52840 ProMicro](meshcore_tiny_relay_ble.jpg)
 
 ## Overview
 
